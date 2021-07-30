@@ -7,6 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    
+            <!-- 无数据展示 -->
+            <div class="nodata" v-if="isNoData">
+                <span class="con">{{ $t("lang.norank") }}</span>
+            </div>
 </body>
 </html>
